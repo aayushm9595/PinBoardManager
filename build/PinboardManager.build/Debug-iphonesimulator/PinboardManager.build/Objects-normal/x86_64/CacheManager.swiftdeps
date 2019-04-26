@@ -1,0 +1,247 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CacheConfiguration"
+- "CacheManager"
+- "CachedItem"
+provides-nominal:
+- "15PinboardManager18CacheConfigurationC"
+- "15PinboardManager05CacheB0C"
+- "15PinboardManager10CachedItemC"
+provides-member:
+- ["15PinboardManager18CacheConfigurationC", ""]
+- ["15PinboardManager05CacheB0C", ""]
+- ["15PinboardManager10CachedItemC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&&"
+- "*"
+- !private "+="
+- !private "<"
+- !private "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CacheConfiguration"
+- "CacheManager"
+- "CachedItem"
+- "Data"
+- "Date"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "String"
+- "TimeInterval"
+- !private "Timer"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "max"]
+- !private ["Sz", "max"]
+- !private ["s7CVarArgP", "count"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "keys"]
+- !private ["s7CVarArgP", "max"]
+- !private ["s7CVarArgP", "removeValue"]
+- !private ["s7CVarArgP", "scheduledTimer"]
+- !private ["s7CVarArgP", "subscript"]
+- ["15PinboardManager18CacheConfigurationC", "CacheConfiguration"]
+- ["15PinboardManager18CacheConfigurationC", "Int"]
+- ["15PinboardManager18CacheConfigurationC", "TimeInterval"]
+- ["15PinboardManager18CacheConfigurationC", "default"]
+- ["15PinboardManager18CacheConfigurationC", "duration"]
+- ["15PinboardManager18CacheConfigurationC", "init"]
+- ["15PinboardManager18CacheConfigurationC", "maxItems"]
+- ["15PinboardManager05CacheB0C", "CacheConfiguration"]
+- ["15PinboardManager05CacheB0C", "CachedItem"]
+- ["15PinboardManager05CacheB0C", "Data"]
+- !private ["15PinboardManager05CacheB0C", "Date"]
+- ["15PinboardManager05CacheB0C", "Int"]
+- ["15PinboardManager05CacheB0C", "String"]
+- !private ["15PinboardManager05CacheB0C", "Timer"]
+- ["15PinboardManager05CacheB0C", "cacheSize"]
+- !private ["15PinboardManager05CacheB0C", "cached"]
+- ["15PinboardManager05CacheB0C", "configuration"]
+- ["15PinboardManager05CacheB0C", "getItem"]
+- ["15PinboardManager05CacheB0C", "init"]
+- ["15PinboardManager05CacheB0C", "releaseResources"]
+- ["15PinboardManager05CacheB0C", "set"]
+- ["15PinboardManager10CachedItemC", "Data"]
+- ["15PinboardManager10CachedItemC", "Date"]
+- ["15PinboardManager10CachedItemC", "Int"]
+- ["15PinboardManager10CachedItemC", "String"]
+- ["15PinboardManager10CachedItemC", "getItem"]
+- ["15PinboardManager10CachedItemC", "init"]
+- ["15PinboardManager10CachedItemC", "intialTime"]
+- !private ["15PinboardManager10CachedItemC", "item"]
+- ["15PinboardManager10CachedItemC", "requestedTimes"]
+- !private ["15PinboardManager10CachedItemC", "url"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- !private ["Sl", "keys"]
+- !private ["Sl", "removeValue"]
+- !private ["Sl", "subscript"]
+- ["SL", "init"]
+- !private ["SL", "max"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "keys"]
+- !private ["s28CustomDebugStringConvertibleP", "removeValue"]
+- !private ["s28CustomDebugStringConvertibleP", "scheduledTimer"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "keys"]
+- !private ["s17CustomReflectableP", "max"]
+- !private ["s17CustomReflectableP", "removeValue"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "keys"]
+- !private ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "removeValue"]
+- !private ["s23CustomStringConvertibleP", "scheduledTimer"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["10Foundation4DateV", "init"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- !private ["Se", "keys"]
+- !private ["Se", "max"]
+- !private ["Se", "removeValue"]
+- !private ["Se", "subscript"]
+- !private ["SD", "count"]
+- ["SD", "init"]
+- !private ["SD", "keys"]
+- !private ["SD", "removeValue"]
+- !private ["SD", "subscript"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- !private ["SE", "keys"]
+- !private ["SE", "max"]
+- !private ["SE", "removeValue"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "count"]
+- ["SQ", "init"]
+- !private ["SQ", "keys"]
+- !private ["SQ", "max"]
+- !private ["SQ", "removeValue"]
+- !private ["SQ", "scheduledTimer"]
+- !private ["SQ", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "count"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "keys"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "max"]
+- !private ["s17FixedWidthIntegerP", "max"]
+- !private ["SH", "count"]
+- ["SH", "init"]
+- !private ["SH", "keys"]
+- !private ["SH", "max"]
+- !private ["SH", "removeValue"]
+- !private ["SH", "scheduledTimer"]
+- !private ["SH", "subscript"]
+- !private ["Si", "max"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "max"]
+- !private ["s25LosslessStringConvertibleP", "max"]
+- !private ["s10MirrorPathP", "max"]
+- !private ["So8NSObjectC", "scheduledTimer"]
+- !private ["So8NSObjectP", "scheduledTimer"]
+- !private ["Sj", "max"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s10SIMDScalarP", "max"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- !private ["ST", "keys"]
+- !private ["ST", "removeValue"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "max"]
+- !private ["s13SignedNumericP", "max"]
+- !private ["Sx", "max"]
+- !private ["So7NSTimerC", "scheduledTimer"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "max"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "max"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "keys"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "max"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scheduledTimer"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "keys"]
+- !private ["s21_ObjectiveCBridgeableP", "max"]
+- !private ["s21_ObjectiveCBridgeableP", "removeValue"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sz"
+- "s7CVarArgP"
+- "15PinboardManager18CacheConfigurationC"
+- "15PinboardManager05CacheB0C"
+- "15PinboardManager10CachedItemC"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DateV"
+- "Se"
+- "SD"
+- "SE"
+- "SQ"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "Si"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sj"
+- "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "So7NSTimerC"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/aayushmaheshwari/Library/Developer/Xcode/DerivedData/PinboardManager-hhmolomoosxvcrejkzqrepzjvlvk/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/aayushmaheshwari/Library/Developer/Xcode/DerivedData/PinboardManager-hhmolomoosxvcrejkzqrepzjvlvk/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/aayushmaheshwari/Downloads/PinboardManager/PinboardManager/PinboardManager.h"
+- "/Users/aayushmaheshwari/Library/Developer/Xcode/DerivedData/PinboardManager-hhmolomoosxvcrejkzqrepzjvlvk/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/aayushmaheshwari/Downloads/PinboardManager/build/PinboardManager.build/Debug-iphonesimulator/PinboardManager.build/unextended-module.modulemap"
+- "/Users/aayushmaheshwari/Library/Developer/Xcode/DerivedData/PinboardManager-hhmolomoosxvcrejkzqrepzjvlvk/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ac5efa05297706a11fde57e35b22cd3b"

@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/aayushmaheshwari/Library/Developer/Xcode/DerivedData/PinboardManager-hhmolomoosxvcrejkzqrepzjvlvk/Build/Products/Debug-iphonesimulator/PinboardManager.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/aayushmaheshwari/Downloads/PinboardManager/build/PinboardManager.build/Debug-iphonesimulator/PinboardManager.build/unextended-module.modulemap",
+    }]
+  }]
+}

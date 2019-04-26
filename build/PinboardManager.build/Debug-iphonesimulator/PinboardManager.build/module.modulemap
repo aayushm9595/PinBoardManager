@@ -1,0 +1,11 @@
+framework module PinboardManager {
+  umbrella header "PinboardManager.h"
+
+  export *
+  module * { export * }
+}
+
+module PinboardManager.Swift {
+    header "PinboardManager-Swift.h"
+    requires objc
+}

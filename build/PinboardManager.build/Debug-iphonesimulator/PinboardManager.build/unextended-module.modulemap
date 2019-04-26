@@ -1,0 +1,10 @@
+framework module PinboardManager {
+  umbrella header "PinboardManager.h"
+
+  export *
+  module * { export * }
+}
+
+module PinboardManager.__Swift {
+    exclude header "PinboardManager-Swift.h"
+}

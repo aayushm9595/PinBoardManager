@@ -1,0 +1,232 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UserKeys"
+- "User"
+provides-nominal:
+- "15PinboardManager8UserKeysV"
+- "15PinboardManager4UserC"
+provides-member:
+- ["15PinboardManager8UserKeysV", ""]
+- ["15PinboardManager4UserC", ""]
+provides-dynamic-lookup:
+- "encode"
+depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "JSON"
+- "Links"
+- "NSCoder"
+- "NSCoding"
+- "ProfileImage"
+- "String"
+- "StringLiteralType"
+- "User"
+- "UserKeys"
+depends-member:
+- !private ["SK", "string"]
+- !private ["s7CVarArgP", "decodeObject"]
+- !private ["s7CVarArgP", "encode"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "init"]
+- !private ["Sl", "string"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "string"]
+- !private ["SL", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeObject"]
+- !private ["s28CustomDebugStringConvertibleP", "encode"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "decodeObject"]
+- !private ["s23CustomStringConvertibleP", "encode"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "string"]
+- !private ["Se", "init"]
+- !private ["Se", "string"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "init"]
+- !private ["SE", "string"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "decodeObject"]
+- !private ["SQ", "encode"]
+- !private ["SQ", "init"]
+- !private ["SQ", "string"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "string"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "string"]
+- !private ["s27ExpressibleByBooleanLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "string"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "string"]
+- !private ["s25ExpressibleByFloatLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "string"]
+- !private ["s27ExpressibleByIntegerLiteralP", "subscript"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "string"]
+- !private ["s26ExpressibleByStringLiteralP", "subscript"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- !private ["SH", "decodeObject"]
+- !private ["SH", "encode"]
+- !private ["SH", "subscript"]
+- !private ["10SwiftyJSON0B0V", "init"]
+- !private ["10SwiftyJSON0B0V", "string"]
+- !private ["10SwiftyJSON0B0V", "subscript"]
+- !private ["s20LazySequenceProtocolP", "string"]
+- !private ["15PinboardManager5LinksC", "deinit"]
+- !private ["15PinboardManager5LinksC", "getDictionary"]
+- !private ["15PinboardManager5LinksC", "init"]
+- !private ["SM", "string"]
+- !private ["So7NSCoderC", "decodeObject"]
+- !private ["So7NSCoderC", "encode"]
+- !private ["So8NSCodingP", "Header"]
+- !private ["So8NSCodingP", "JSON"]
+- !private ["So8NSCodingP", "Links"]
+- !private ["So8NSCodingP", "ProfileImage"]
+- ["So8NSCodingP", "UserKeys"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "encode"]
+- ["So8NSCodingP", "encodeWithCoder"]
+- !private ["So8NSCodingP", "getDictionary"]
+- !private ["So8NSCodingP", "id"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "links"]
+- !private ["So8NSCodingP", "name"]
+- !private ["So8NSCodingP", "profileImage"]
+- !private ["So8NSCodingP", "username"]
+- !private ["So8NSObjectC", "decodeObject"]
+- !private ["So8NSObjectC", "encode"]
+- !private ["So8NSObjectP", "decodeObject"]
+- !private ["So8NSObjectP", "encode"]
+- !private ["15PinboardManager12ProfileImageC", "deinit"]
+- !private ["15PinboardManager12ProfileImageC", "getDictionary"]
+- !private ["15PinboardManager12ProfileImageC", "init"]
+- !private ["Sk", "string"]
+- !private ["Sm", "string"]
+- !private ["SY", "init"]
+- !private ["SY", "string"]
+- !private ["SY", "subscript"]
+- !private ["ST", "init"]
+- !private ["ST", "string"]
+- !private ["ST", "subscript"]
+- !private ["s5SliceV", "string"]
+- !private ["15PinboardManager4UserC", "Header"]
+- ["15PinboardManager4UserC", "JSON"]
+- ["15PinboardManager4UserC", "Links"]
+- ["15PinboardManager4UserC", "NSCoder"]
+- ["15PinboardManager4UserC", "ProfileImage"]
+- ["15PinboardManager4UserC", "String"]
+- ["15PinboardManager4UserC", "UserKeys"]
+- ["15PinboardManager4UserC", "deinit"]
+- ["15PinboardManager4UserC", "encode"]
+- ["15PinboardManager4UserC", "encodeWithCoder"]
+- ["15PinboardManager4UserC", "getDictionary"]
+- ["15PinboardManager4UserC", "id"]
+- ["15PinboardManager4UserC", "init"]
+- ["15PinboardManager4UserC", "links"]
+- ["15PinboardManager4UserC", "name"]
+- ["15PinboardManager4UserC", "profileImage"]
+- ["15PinboardManager4UserC", "username"]
+- ["15PinboardManager8UserKeysV", "String"]
+- ["15PinboardManager8UserKeysV", "id"]
+- ["15PinboardManager8UserKeysV", "init"]
+- ["15PinboardManager8UserKeysV", "links"]
+- ["15PinboardManager8UserKeysV", "name"]
+- ["15PinboardManager8UserKeysV", "profileimage"]
+- ["15PinboardManager8UserKeysV", "username"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "encode"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "10SwiftyJSON0B0V"
+- !private "s20LazySequenceProtocolP"
+- !private "15PinboardManager5LinksC"
+- !private "SM"
+- !private "So7NSCoderC"
+- "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "15PinboardManager12ProfileImageC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "s5SliceV"
+- "15PinboardManager4UserC"
+- "15PinboardManager8UserKeysV"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/aayushmaheshwari/Library/Developer/Xcode/DerivedData/PinboardManager-hhmolomoosxvcrejkzqrepzjvlvk/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/aayushmaheshwari/Library/Developer/Xcode/DerivedData/PinboardManager-hhmolomoosxvcrejkzqrepzjvlvk/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/aayushmaheshwari/Downloads/PinboardManager/PinboardManager/PinboardManager.h"
+- "/Users/aayushmaheshwari/Library/Developer/Xcode/DerivedData/PinboardManager-hhmolomoosxvcrejkzqrepzjvlvk/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/aayushmaheshwari/Downloads/PinboardManager/build/PinboardManager.build/Debug-iphonesimulator/PinboardManager.build/unextended-module.modulemap"
+- "/Users/aayushmaheshwari/Library/Developer/Xcode/DerivedData/PinboardManager-hhmolomoosxvcrejkzqrepzjvlvk/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f3370a08ef29c85a78844b98bf52eceb"

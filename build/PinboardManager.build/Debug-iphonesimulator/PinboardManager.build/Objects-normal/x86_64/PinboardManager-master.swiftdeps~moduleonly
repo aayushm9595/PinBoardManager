@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "793754eade844aeab5faea8b2663393d"
+build_time: [1556300239, 434437000]
+inputs:
+  "/Users/aayushmaheshwari/Downloads/PinboardManager/PinboardManager/model/Pin.swift": [1556297369, 27895430]
+  "/Users/aayushmaheshwari/Downloads/PinboardManager/PinboardManager/model/ProfileImage.swift": [1556297378, 952395395]
+  "/Users/aayushmaheshwari/Downloads/PinboardManager/PinboardManager/model/User.swift": [1556297405, 535947010]
+  "/Users/aayushmaheshwari/Downloads/PinboardManager/PinboardManager/ViewModel/PinsViewModel.swift": [1556297463, 887905703]
+  "/Users/aayushmaheshwari/Downloads/PinboardManager/PinboardManager/model/Categories.swift": [1556297405, 551022446]
+  "/Users/aayushmaheshwari/Downloads/PinboardManager/PinboardManager/network-libraries/CacheManager.swift": [1556297326, 855003079]
+  "/Users/aayushmaheshwari/Downloads/PinboardManager/PinboardManager/model/Links.swift": [1556297326, 833212576]
+  "/Users/aayushmaheshwari/Downloads/PinboardManager/PinboardManager/model/Urls.swift": [1556297326, 839206110]
+  "/Users/aayushmaheshwari/Downloads/PinboardManager/PinboardManager/network-libraries/DownloadManager.swift": [1556297488, 428536433]

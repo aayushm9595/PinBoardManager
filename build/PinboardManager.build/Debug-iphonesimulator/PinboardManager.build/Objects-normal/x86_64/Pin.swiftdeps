@@ -1,0 +1,567 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PinKeys"
+- "Pin"
+provides-nominal:
+- "15PinboardManager7PinKeysV"
+- "15PinboardManager3PinC"
+provides-member:
+- ["15PinboardManager7PinKeysV", ""]
+- ["15PinboardManager3PinC", ""]
+provides-dynamic-lookup:
+- "encode"
+depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "Categories"
+- "Date"
+- !private "DateFormatter"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "JSON"
+- "Links"
+- "NSCoder"
+- "NSCoding"
+- "Pin"
+- "PinKeys"
+- "String"
+- "StringLiteralType"
+- !private "UnicodeScalarType"
+- "Urls"
+- "User"
+depends-member:
+- !private ["Sa", "map"]
+- !private ["SK", "array"]
+- !private ["SK", "boolValue"]
+- !private ["SK", "init"]
+- !private ["SK", "int"]
+- !private ["SK", "map"]
+- !private ["SK", "prefix"]
+- !private ["SK", "replacingOccurrences"]
+- !private ["SK", "string"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "decodeBool"]
+- !private ["s7CVarArgP", "decodeObject"]
+- !private ["s7CVarArgP", "encode"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "prefix"]
+- !private ["s7CVarArgP", "replacingOccurrences"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["15PinboardManager10CategoriesC", "deinit"]
+- !private ["15PinboardManager10CategoriesC", "getDictionary"]
+- !private ["15PinboardManager10CategoriesC", "init"]
+- !private ["Sl", "array"]
+- !private ["Sl", "boolValue"]
+- !private ["Sl", "init"]
+- !private ["Sl", "int"]
+- !private ["Sl", "map"]
+- !private ["Sl", "object"]
+- !private ["Sl", "prefix"]
+- !private ["Sl", "replacingOccurrences"]
+- !private ["Sl", "string"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "array"]
+- !private ["SL", "boolValue"]
+- !private ["SL", "init"]
+- !private ["SL", "int"]
+- !private ["SL", "object"]
+- !private ["SL", "prefix"]
+- !private ["SL", "replacingOccurrences"]
+- !private ["SL", "string"]
+- !private ["SL", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "array"]
+- !private ["10Foundation15ContiguousBytesP", "boolValue"]
+- !private ["10Foundation15ContiguousBytesP", "int"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "array"]
+- !private ["s28CustomDebugStringConvertibleP", "boolValue"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeBool"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeObject"]
+- !private ["s28CustomDebugStringConvertibleP", "encode"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "int"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "object"]
+- !private ["s28CustomDebugStringConvertibleP", "prefix"]
+- !private ["s28CustomDebugStringConvertibleP", "replacingOccurrences"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "prefix"]
+- !private ["s17CustomReflectableP", "replacingOccurrences"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "array"]
+- !private ["s23CustomStringConvertibleP", "boolValue"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "decodeBool"]
+- !private ["s23CustomStringConvertibleP", "decodeObject"]
+- !private ["s23CustomStringConvertibleP", "encode"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "int"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "object"]
+- !private ["s23CustomStringConvertibleP", "prefix"]
+- !private ["s23CustomStringConvertibleP", "replacingOccurrences"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "array"]
+- !private ["10Foundation12DataProtocolP", "boolValue"]
+- !private ["10Foundation12DataProtocolP", "int"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "string"]
+- !private ["So15NSDateFormatterC", "date"]
+- !private ["So15NSDateFormatterC", "dateFormat"]
+- !private ["So15NSDateFormatterC", "init"]
+- !private ["Se", "array"]
+- !private ["Se", "boolValue"]
+- !private ["Se", "init"]
+- !private ["Se", "int"]
+- !private ["Se", "map"]
+- !private ["Se", "object"]
+- !private ["Se", "prefix"]
+- !private ["Se", "replacingOccurrences"]
+- !private ["Se", "string"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "array"]
+- !private ["SE", "boolValue"]
+- !private ["SE", "init"]
+- !private ["SE", "int"]
+- !private ["SE", "map"]
+- !private ["SE", "object"]
+- !private ["SE", "prefix"]
+- !private ["SE", "replacingOccurrences"]
+- !private ["SE", "string"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "array"]
+- !private ["SQ", "boolValue"]
+- !private ["SQ", "date"]
+- !private ["SQ", "dateFormat"]
+- !private ["SQ", "decodeBool"]
+- !private ["SQ", "decodeObject"]
+- !private ["SQ", "encode"]
+- !private ["SQ", "init"]
+- !private ["SQ", "int"]
+- !private ["SQ", "map"]
+- !private ["SQ", "object"]
+- !private ["SQ", "prefix"]
+- !private ["SQ", "replacingOccurrences"]
+- !private ["SQ", "string"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "array"]
+- !private ["s25ExpressibleByArrayLiteralP", "boolValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "int"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "object"]
+- !private ["s25ExpressibleByArrayLiteralP", "string"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "array"]
+- !private ["s27ExpressibleByBooleanLiteralP", "boolValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "int"]
+- !private ["s27ExpressibleByBooleanLiteralP", "object"]
+- !private ["s27ExpressibleByBooleanLiteralP", "string"]
+- !private ["s27ExpressibleByBooleanLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "array"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "boolValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "int"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "object"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "string"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "array"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "boolValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "int"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "object"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "prefix"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "array"]
+- !private ["s25ExpressibleByFloatLiteralP", "boolValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "int"]
+- !private ["s25ExpressibleByFloatLiteralP", "object"]
+- !private ["s25ExpressibleByFloatLiteralP", "string"]
+- !private ["s25ExpressibleByFloatLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "array"]
+- !private ["s27ExpressibleByIntegerLiteralP", "boolValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int"]
+- !private ["s27ExpressibleByIntegerLiteralP", "object"]
+- !private ["s27ExpressibleByIntegerLiteralP", "string"]
+- !private ["s27ExpressibleByIntegerLiteralP", "subscript"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "prefix"]
+- !private ["s32ExpressibleByStringInterpolationP", "replacingOccurrences"]
+- !private ["s26ExpressibleByStringLiteralP", "array"]
+- !private ["s26ExpressibleByStringLiteralP", "boolValue"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "int"]
+- !private ["s26ExpressibleByStringLiteralP", "object"]
+- !private ["s26ExpressibleByStringLiteralP", "prefix"]
+- !private ["s26ExpressibleByStringLiteralP", "replacingOccurrences"]
+- !private ["s26ExpressibleByStringLiteralP", "string"]
+- !private ["s26ExpressibleByStringLiteralP", "subscript"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "array"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "boolValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "int"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "object"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "prefix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- !private ["So11NSFormatterC", "date"]
+- !private ["So11NSFormatterC", "dateFormat"]
+- !private ["So11NSFormatterC", "init"]
+- !private ["SH", "date"]
+- !private ["SH", "dateFormat"]
+- !private ["SH", "decodeBool"]
+- !private ["SH", "decodeObject"]
+- !private ["SH", "encode"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "prefix"]
+- !private ["SH", "replacingOccurrences"]
+- !private ["SH", "subscript"]
+- !private ["10SwiftyJSON0B0V", "array"]
+- !private ["10SwiftyJSON0B0V", "boolValue"]
+- !private ["10SwiftyJSON0B0V", "init"]
+- !private ["10SwiftyJSON0B0V", "int"]
+- !private ["10SwiftyJSON0B0V", "object"]
+- !private ["10SwiftyJSON0B0V", "string"]
+- !private ["10SwiftyJSON0B0V", "subscript"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "prefix"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "replacingOccurrences"]
+- !private ["s20LazySequenceProtocolP", "array"]
+- !private ["s20LazySequenceProtocolP", "boolValue"]
+- !private ["s20LazySequenceProtocolP", "int"]
+- !private ["s20LazySequenceProtocolP", "string"]
+- !private ["15PinboardManager5LinksC", "deinit"]
+- !private ["15PinboardManager5LinksC", "getDictionary"]
+- !private ["15PinboardManager5LinksC", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "prefix"]
+- !private ["s25LosslessStringConvertibleP", "replacingOccurrences"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "prefix"]
+- !private ["s10MirrorPathP", "replacingOccurrences"]
+- !private ["SM", "array"]
+- !private ["SM", "boolValue"]
+- !private ["SM", "int"]
+- !private ["SM", "map"]
+- !private ["SM", "string"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["So7NSCoderC", "decodeBool"]
+- !private ["So7NSCoderC", "decodeObject"]
+- !private ["So7NSCoderC", "encode"]
+- !private ["So8NSCodingP", "Categories"]
+- !private ["So8NSCodingP", "DateFormatter"]
+- !private ["So8NSCodingP", "Header"]
+- !private ["So8NSCodingP", "JSON"]
+- !private ["So8NSCodingP", "Links"]
+- ["So8NSCodingP", "PinKeys"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "Urls"]
+- !private ["So8NSCodingP", "User"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "categories"]
+- !private ["So8NSCodingP", "color"]
+- !private ["So8NSCodingP", "createdAt"]
+- !private ["So8NSCodingP", "currentUserCollections"]
+- !private ["So8NSCodingP", "date"]
+- !private ["So8NSCodingP", "dateFormat"]
+- ["So8NSCodingP", "encode"]
+- ["So8NSCodingP", "encodeWithCoder"]
+- !private ["So8NSCodingP", "getDictionary"]
+- !private ["So8NSCodingP", "height"]
+- !private ["So8NSCodingP", "id"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "likedByUser"]
+- !private ["So8NSCodingP", "likes"]
+- !private ["So8NSCodingP", "links"]
+- !private ["So8NSCodingP", "prefix"]
+- !private ["So8NSCodingP", "replacingOccurrences"]
+- !private ["So8NSCodingP", "urls"]
+- !private ["So8NSCodingP", "user"]
+- !private ["So8NSCodingP", "width"]
+- !private ["So9NSCopyingP", "date"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "prefix"]
+- !private ["So9NSCopyingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderReadingP", "prefix"]
+- !private ["So21NSItemProviderReadingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderWritingP", "prefix"]
+- !private ["So21NSItemProviderWritingP", "replacingOccurrences"]
+- !private ["So16NSMutableCopyingP", "prefix"]
+- !private ["So16NSMutableCopyingP", "replacingOccurrences"]
+- !private ["So8NSObjectC", "date"]
+- !private ["So8NSObjectC", "dateFormat"]
+- !private ["So8NSObjectC", "decodeBool"]
+- !private ["So8NSObjectC", "decodeObject"]
+- !private ["So8NSObjectC", "encode"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "prefix"]
+- !private ["So8NSObjectC", "replacingOccurrences"]
+- !private ["So8NSObjectP", "date"]
+- !private ["So8NSObjectP", "dateFormat"]
+- !private ["So8NSObjectP", "decodeBool"]
+- !private ["So8NSObjectP", "decodeObject"]
+- !private ["So8NSObjectP", "encode"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "prefix"]
+- !private ["So8NSObjectP", "replacingOccurrences"]
+- !private ["So14NSSecureCodingP", "prefix"]
+- !private ["So14NSSecureCodingP", "replacingOccurrences"]
+- !private ["So8NSStringC", "prefix"]
+- !private ["So8NSStringC", "replacingOccurrences"]
+- ["15PinboardManager3PinC", "Bool"]
+- ["15PinboardManager3PinC", "Categories"]
+- ["15PinboardManager3PinC", "Date"]
+- !private ["15PinboardManager3PinC", "DateFormatter"]
+- !private ["15PinboardManager3PinC", "Header"]
+- ["15PinboardManager3PinC", "Int"]
+- ["15PinboardManager3PinC", "JSON"]
+- ["15PinboardManager3PinC", "Links"]
+- ["15PinboardManager3PinC", "NSCoder"]
+- ["15PinboardManager3PinC", "PinKeys"]
+- ["15PinboardManager3PinC", "String"]
+- ["15PinboardManager3PinC", "Urls"]
+- ["15PinboardManager3PinC", "User"]
+- ["15PinboardManager3PinC", "categories"]
+- ["15PinboardManager3PinC", "color"]
+- ["15PinboardManager3PinC", "createdAt"]
+- ["15PinboardManager3PinC", "currentUserCollections"]
+- ["15PinboardManager3PinC", "date"]
+- ["15PinboardManager3PinC", "deinit"]
+- ["15PinboardManager3PinC", "encode"]
+- ["15PinboardManager3PinC", "encodeWithCoder"]
+- ["15PinboardManager3PinC", "getDictonary"]
+- ["15PinboardManager3PinC", "height"]
+- ["15PinboardManager3PinC", "id"]
+- ["15PinboardManager3PinC", "init"]
+- ["15PinboardManager3PinC", "likedByUser"]
+- ["15PinboardManager3PinC", "likes"]
+- ["15PinboardManager3PinC", "links"]
+- ["15PinboardManager3PinC", "urls"]
+- ["15PinboardManager3PinC", "user"]
+- ["15PinboardManager3PinC", "width"]
+- ["15PinboardManager7PinKeysV", "String"]
+- ["15PinboardManager7PinKeysV", "categories"]
+- ["15PinboardManager7PinKeysV", "color"]
+- ["15PinboardManager7PinKeysV", "created_at"]
+- ["15PinboardManager7PinKeysV", "currentUserCollection"]
+- ["15PinboardManager7PinKeysV", "height"]
+- ["15PinboardManager7PinKeysV", "id"]
+- ["15PinboardManager7PinKeysV", "init"]
+- ["15PinboardManager7PinKeysV", "likedByUser"]
+- ["15PinboardManager7PinKeysV", "likes"]
+- ["15PinboardManager7PinKeysV", "links"]
+- ["15PinboardManager7PinKeysV", "urls"]
+- ["15PinboardManager7PinKeysV", "user"]
+- ["15PinboardManager7PinKeysV", "width"]
+- !private ["Sk", "array"]
+- !private ["Sk", "boolValue"]
+- !private ["Sk", "int"]
+- !private ["Sk", "map"]
+- !private ["Sk", "string"]
+- !private ["Sm", "array"]
+- !private ["Sm", "boolValue"]
+- !private ["Sm", "init"]
+- !private ["Sm", "int"]
+- !private ["Sm", "map"]
+- !private ["Sm", "prefix"]
+- !private ["Sm", "replacingOccurrences"]
+- !private ["Sm", "string"]
+- !private ["SY", "array"]
+- !private ["SY", "boolValue"]
+- !private ["SY", "init"]
+- !private ["SY", "int"]
+- !private ["SY", "object"]
+- !private ["SY", "string"]
+- !private ["SY", "subscript"]
+- !private ["ST", "array"]
+- !private ["ST", "boolValue"]
+- !private ["ST", "init"]
+- !private ["ST", "int"]
+- !private ["ST", "map"]
+- !private ["ST", "object"]
+- !private ["ST", "prefix"]
+- !private ["ST", "replacingOccurrences"]
+- !private ["ST", "string"]
+- !private ["ST", "subscript"]
+- !private ["s5SliceV", "array"]
+- !private ["s5SliceV", "boolValue"]
+- !private ["s5SliceV", "int"]
+- !private ["s5SliceV", "string"]
+- !private ["SS", "init"]
+- !private ["SS", "prefix"]
+- !private ["SS", "replacingOccurrences"]
+- !private ["Sy", "init"]
+- !private ["Sy", "prefix"]
+- !private ["Sy", "replacingOccurrences"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "prefix"]
+- !private ["s16TextOutputStreamP", "replacingOccurrences"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "prefix"]
+- !private ["s20TextOutputStreamableP", "replacingOccurrences"]
+- !private ["15PinboardManager4UrlsC", "deinit"]
+- !private ["15PinboardManager4UrlsC", "getDictionary"]
+- !private ["15PinboardManager4UrlsC", "init"]
+- !private ["15PinboardManager4UserC", "deinit"]
+- !private ["15PinboardManager4UserC", "getDictionary"]
+- !private ["15PinboardManager4UserC", "init"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "prefix"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "replacingOccurrences"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "prefix"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "prefix"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "replacingOccurrences"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "prefix"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "prefix"]
+- !private ["s19_HasContiguousBytesP", "replacingOccurrences"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "prefix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "replacingOccurrences"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeBool"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "encode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "prefix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replacingOccurrences"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "prefix"]
+- !private ["s21_ObjectiveCBridgeableP", "replacingOccurrences"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "15PinboardManager10CategoriesC"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "So15NSDateFormatterC"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So11NSFormatterC"
+- !private "SH"
+- !private "10SwiftyJSON0B0V"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s20LazySequenceProtocolP"
+- !private "15PinboardManager5LinksC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So7NSCoderC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "15PinboardManager3PinC"
+- "15PinboardManager7PinKeysV"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "s5SliceV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "15PinboardManager4UrlsC"
+- !private "15PinboardManager4UserC"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/aayushmaheshwari/Library/Developer/Xcode/DerivedData/PinboardManager-hhmolomoosxvcrejkzqrepzjvlvk/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/aayushmaheshwari/Library/Developer/Xcode/DerivedData/PinboardManager-hhmolomoosxvcrejkzqrepzjvlvk/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/aayushmaheshwari/Downloads/PinboardManager/PinboardManager/PinboardManager.h"
+- "/Users/aayushmaheshwari/Library/Developer/Xcode/DerivedData/PinboardManager-hhmolomoosxvcrejkzqrepzjvlvk/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/aayushmaheshwari/Downloads/PinboardManager/build/PinboardManager.build/Debug-iphonesimulator/PinboardManager.build/unextended-module.modulemap"
+- "/Users/aayushmaheshwari/Library/Developer/Xcode/DerivedData/PinboardManager-hhmolomoosxvcrejkzqrepzjvlvk/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4aa1898ff2b06ba33c8ff2cfdab82ad7"

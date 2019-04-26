@@ -1,0 +1,476 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DownloadStatus"
+- "DownloadState"
+- "Downloader"
+- "DownloadItem"
+- "ClosureNotifier"
+provides-nominal:
+- "15PinboardManager14DownloadStatusP"
+- "15PinboardManager13DownloadStateO"
+- "15PinboardManager10DownloaderC"
+- "15PinboardManager12DownloadItemC"
+- "15PinboardManager15ClosureNotifierC"
+provides-member:
+- ["15PinboardManager14DownloadStatusP", ""]
+- ["15PinboardManager13DownloadStateO", ""]
+- ["15PinboardManager10DownloaderC", ""]
+- ["15PinboardManager12DownloadItemC", ""]
+- ["15PinboardManager15ClosureNotifierC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&&"
+- "=="
+- !private "==="
+- "AnyObject"
+- "AssignmentPrecedence"
+- "CacheConfiguration"
+- "CacheManager"
+- "CastingPrecedence"
+- "ClosureNotifier"
+- "Data"
+- "DownloadItem"
+- "DownloadState"
+- "DownloadStatus"
+- "Downloader"
+- "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSError"
+- !private "NSLocalizedDescriptionKey"
+- !private "NSLocalizedFailureReasonErrorKey"
+- !private "NSLocalizedString"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+- !private "URL"
+- !private "URLSession"
+- "URLSessionDataTask"
+- !private "||"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "enumerated"]
+- ["Sa", "init"]
+- !private ["Sa", "remove"]
+- !private ["Sa", "removeAll"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "enumerated"]
+- ["SK", "init"]
+- !private ["SK", "remove"]
+- !private ["SK", "removeAll"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "cancel"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "failureBlock"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "remove"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "removeValue"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "successBlock"]
+- ["15PinboardManager18CacheConfigurationC", "default"]
+- !private ["15PinboardManager05CacheB0C", "getItem"]
+- ["15PinboardManager05CacheB0C", "init"]
+- !private ["15PinboardManager05CacheB0C", "set"]
+- ["15PinboardManager15ClosureNotifierC", "Data"]
+- ["15PinboardManager15ClosureNotifierC", "Error"]
+- ["15PinboardManager15ClosureNotifierC", "deinit"]
+- ["15PinboardManager15ClosureNotifierC", "failureBlock"]
+- ["15PinboardManager15ClosureNotifierC", "init"]
+- ["15PinboardManager15ClosureNotifierC", "successBlock"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "enumerated"]
+- ["Sl", "init"]
+- !private ["Sl", "remove"]
+- !private ["Sl", "removeAll"]
+- !private ["Sl", "removeValue"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "enumerated"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "remove"]
+- !private ["10Foundation15ContiguousBytesP", "removeAll"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "cancel"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "failureBlock"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "removeValue"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "successBlock"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "removeValue"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "cancel"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "failureBlock"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "removeValue"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "successBlock"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "enumerated"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "remove"]
+- !private ["10Foundation12DataProtocolP", "removeAll"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "enumerated"]
+- ["Se", "init"]
+- !private ["Se", "remove"]
+- !private ["Se", "removeAll"]
+- !private ["Se", "removeValue"]
+- !private ["Se", "subscript"]
+- ["SD", "init"]
+- !private ["SD", "removeValue"]
+- !private ["SD", "subscript"]
+- ["15PinboardManager12DownloadItemC", "ClosureNotifier"]
+- ["15PinboardManager12DownloadItemC", "Data"]
+- ["15PinboardManager12DownloadItemC", "DownloadState"]
+- ["15PinboardManager12DownloadItemC", "DownloadStatus"]
+- ["15PinboardManager12DownloadItemC", "Error"]
+- ["15PinboardManager12DownloadItemC", "ItemsStatus"]
+- ["15PinboardManager12DownloadItemC", "String"]
+- ["15PinboardManager12DownloadItemC", "URLSessionDataTask"]
+- ["15PinboardManager12DownloadItemC", "add"]
+- ["15PinboardManager12DownloadItemC", "blocksObservers"]
+- ["15PinboardManager12DownloadItemC", "downloadTask"]
+- ["15PinboardManager12DownloadItemC", "downloadedItem"]
+- ["15PinboardManager12DownloadItemC", "finalize"]
+- ["15PinboardManager12DownloadItemC", "init"]
+- ["15PinboardManager12DownloadItemC", "notifyFailure"]
+- ["15PinboardManager12DownloadItemC", "notifySuccess"]
+- ["15PinboardManager12DownloadItemC", "removeObserver"]
+- ["15PinboardManager12DownloadItemC", "state"]
+- ["15PinboardManager12DownloadItemC", "url"]
+- ["15PinboardManager13DownloadStateO", "=="]
+- ["15PinboardManager13DownloadStateO", "__derived_enum_equals"]
+- ["15PinboardManager13DownloadStateO", "_rawHashValue"]
+- ["15PinboardManager13DownloadStateO", "deinit"]
+- ["15PinboardManager13DownloadStateO", "failed"]
+- ["15PinboardManager13DownloadStateO", "finished"]
+- ["15PinboardManager13DownloadStateO", "hash"]
+- ["15PinboardManager13DownloadStateO", "hashValue"]
+- ["15PinboardManager13DownloadStateO", "none"]
+- ["15PinboardManager13DownloadStateO", "pending"]
+- ["15PinboardManager14DownloadStatusP", "Data"]
+- ["15PinboardManager14DownloadStatusP", "Error"]
+- ["15PinboardManager14DownloadStatusP", "String"]
+- ["15PinboardManager14DownloadStatusP", "downloadFailed"]
+- ["15PinboardManager14DownloadStatusP", "downloaded"]
+- !private ["15PinboardManager10DownloaderC", "AnyObject"]
+- ["15PinboardManager10DownloaderC", "CacheConfiguration"]
+- ["15PinboardManager10DownloaderC", "CacheManager"]
+- !private ["15PinboardManager10DownloaderC", "ClosureNotifier"]
+- ["15PinboardManager10DownloaderC", "Data"]
+- ["15PinboardManager10DownloaderC", "DownloadItem"]
+- ["15PinboardManager10DownloaderC", "DownloadStatus"]
+- ["15PinboardManager10DownloaderC", "Downloader"]
+- ["15PinboardManager10DownloaderC", "Error"]
+- ["15PinboardManager10DownloaderC", "NSError"]
+- !private ["15PinboardManager10DownloaderC", "NSLocalizedDescriptionKey"]
+- !private ["15PinboardManager10DownloaderC", "NSLocalizedFailureReasonErrorKey"]
+- !private ["15PinboardManager10DownloaderC", "NSLocalizedString"]
+- !private ["15PinboardManager10DownloaderC", "NSObject"]
+- ["15PinboardManager10DownloaderC", "String"]
+- !private ["15PinboardManager10DownloaderC", "URL"]
+- !private ["15PinboardManager10DownloaderC", "URLSession"]
+- ["15PinboardManager10DownloaderC", "cacheManager"]
+- ["15PinboardManager10DownloaderC", "cancelDownload"]
+- ["15PinboardManager10DownloaderC", "createEmptyDataError"]
+- !private ["15PinboardManager10DownloaderC", "doDownload"]
+- ["15PinboardManager10DownloaderC", "download"]
+- !private ["15PinboardManager10DownloaderC", "downloads"]
+- ["15PinboardManager10DownloaderC", "init"]
+- !private ["15PinboardManager10DownloaderC", "itemFromCache"]
+- ["15PinboardManager10DownloaderC", "shared"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "enumerated"]
+- ["SE", "init"]
+- !private ["SE", "remove"]
+- !private ["SE", "removeAll"]
+- !private ["SE", "removeValue"]
+- !private ["SE", "subscript"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "cancel"]
+- !private ["SQ", "count"]
+- !private ["SQ", "dataTask"]
+- !private ["SQ", "enumerated"]
+- !private ["SQ", "failed"]
+- !private ["SQ", "failureBlock"]
+- !private ["SQ", "finished"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "none"]
+- !private ["SQ", "pending"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "removeValue"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "successBlock"]
+- !private ["s5ErrorP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "append"]
+- !private ["SH", "cancel"]
+- !private ["SH", "count"]
+- !private ["SH", "dataTask"]
+- !private ["SH", "enumerated"]
+- !private ["SH", "failed"]
+- !private ["SH", "failureBlock"]
+- !private ["SH", "finished"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "none"]
+- !private ["SH", "pending"]
+- !private ["SH", "remove"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "removeValue"]
+- !private ["SH", "resume"]
+- !private ["SH", "shared"]
+- !private ["SH", "subscript"]
+- !private ["SH", "successBlock"]
+- !private ["s6HasherV", "combine"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "enumerated"]
+- ["SM", "init"]
+- !private ["SM", "remove"]
+- !private ["SM", "removeAll"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "enumerated"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "remove"]
+- !private ["10Foundation19MutableDataProtocolP", "removeAll"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "cancel"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So7NSErrorC", "init"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "cancel"]
+- !private ["So8NSObjectC", "dataTask"]
+- ["So8NSObjectC", "failureBlock"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "successBlock"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "cancel"]
+- !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "failureBlock"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "successBlock"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So19NSProgressReportingP", "cancel"]
+- !private ["So19NSProgressReportingP", "resume"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "enumerated"]
+- ["Sk", "init"]
+- !private ["Sk", "remove"]
+- !private ["Sk", "removeAll"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "enumerated"]
+- ["Sm", "init"]
+- !private ["Sm", "remove"]
+- !private ["Sm", "removeAll"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "enumerated"]
+- ["ST", "init"]
+- !private ["ST", "remove"]
+- !private ["ST", "removeAll"]
+- !private ["ST", "removeValue"]
+- !private ["ST", "subscript"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- !private ["So12NSURLSessionC", "shared"]
+- !private ["So20NSURLSessionDataTaskC", "cancel"]
+- !private ["So20NSURLSessionDataTaskC", "resume"]
+- !private ["So16NSURLSessionTaskC", "cancel"]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "remove"]
+- !private ["s14_ArrayProtocolP", "removeAll"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "enumerated"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "remove"]
+- !private ["s19_HasContiguousBytesP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "failureBlock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "successBlock"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "removeValue"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "Sa"
+- "SK"
+- "s7CVarArgP"
+- "15PinboardManager18CacheConfigurationC"
+- "15PinboardManager05CacheB0C"
+- "15PinboardManager15ClosureNotifierC"
+- "Sl"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- "SD"
+- "15PinboardManager12DownloadItemC"
+- "15PinboardManager13DownloadStateO"
+- "15PinboardManager14DownloadStatusP"
+- "15PinboardManager10DownloaderC"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So19NSProgressReportingP"
+- "Sk"
+- "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- "ST"
+- !private "10Foundation3URLV"
+- !private "So12NSURLSessionC"
+- !private "So20NSURLSessionDataTaskC"
+- !private "So16NSURLSessionTaskC"
+- "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/aayushmaheshwari/Library/Developer/Xcode/DerivedData/PinboardManager-hhmolomoosxvcrejkzqrepzjvlvk/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/aayushmaheshwari/Library/Developer/Xcode/DerivedData/PinboardManager-hhmolomoosxvcrejkzqrepzjvlvk/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/aayushmaheshwari/Downloads/PinboardManager/PinboardManager/PinboardManager.h"
+- "/Users/aayushmaheshwari/Library/Developer/Xcode/DerivedData/PinboardManager-hhmolomoosxvcrejkzqrepzjvlvk/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/aayushmaheshwari/Downloads/PinboardManager/build/PinboardManager.build/Debug-iphonesimulator/PinboardManager.build/unextended-module.modulemap"
+- "/Users/aayushmaheshwari/Library/Developer/Xcode/DerivedData/PinboardManager-hhmolomoosxvcrejkzqrepzjvlvk/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9163069dddee78a76c2a13b81ff6980d"
