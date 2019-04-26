@@ -1,4 +1,4 @@
-#PinBoardManager
+# PinBoardManager
 
 The following link used for loading data loading data: http://pastebin.com/raw/wgkJgazE
 
@@ -7,20 +7,20 @@ Above download link is configurable and can be set in PinsViewModel as `urlstrin
 Images link, Likes, time of creation  and JSON is cached in-memory only for all Pin items.
 
 The classes in model are structured as follows:-
-
-  --->Pin (height, user, id, Likes, width, creation time, urls, current user location, color, date)
-     |
-     |-> Urls (full, small, thumb, regular, raw)
-     |-> Links (id, username)
-     |   ^        ^
-     |   |        |
-     |---------> User
-     |   |        |
-     |   |        |->ProfileImage
-     |   |
-     |   |
-     |   |
-     |->Categories
+<p>
+  --->Pin (height, user, id, Likes, width, creation time, urls, current user location, color, date) <br/>  
+     | <br/> 
+     |-> Urls (full, small, thumb, regular, raw) <br/>
+     |-> Links (id, username) <br/>
+     |    ^        ^ <br/>
+     |    |        | <br/>
+     |---------> User <br/>
+     |    |        | <br/>
+     |    |        |->ProfileImage <br/> 
+     |    | <br/>
+     |    | <br/> 
+     |    | <br/>
+     |->Categories <br/>
 
 Cache size can be configured using class CacheConfiguration parameter `maxItems`
 
@@ -46,5 +46,5 @@ Build the Workspace with target selected as PinBoardFramework to get the framewo
 
 Add SwiftyJSON and PinBoardManager.framework generated to you linked framework and Libraries along with Embeded binaries.
 
-`import PinBoardManager`
+`import PinBoardManager` <br/>
 `import SwiftyJSON`
