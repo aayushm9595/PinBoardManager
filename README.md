@@ -1,6 +1,6 @@
 # PinBoardManager
 
-The following link used for loading data loading data: http://pastebin.com/raw/wgkJgazE
+The following link used for loading data: http://pastebin.com/raw/wgkJgazE
 
 Above download link is configurable and can be set in PinsViewModel as `urlstring` parameter.
 
