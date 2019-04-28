@@ -1,5 +1,7 @@
 # PinBoardManager
 
+### Language Used : Swift 5, Xcode10.2
+
 The following link used for loading data: <br/>
 [http://pastebin.com/raw/wgkJgazE](url) <br/>
 Above download link is configurable and can be set in PinsViewModel as `urlstring` parameter.
