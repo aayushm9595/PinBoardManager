@@ -7,10 +7,9 @@ Above download link is configurable and can be set in PinsViewModel as `urlstrin
 Images link, Likes, time of creation  and JSON is cached in-memory only for all Pin items.
 
 The classes in model are structured as follows:-
-<p>
-  --->Pin (height, user, id, Likes, width, creation time, urls, current user location, color, date) <br/>  
+  --->Pin (height, user, id, Likes, width, creation time, urls, current user location, colour, date) <br/>  
      | <br/>
-     |-> Urls (full, small, thumb, regular, raw) 
+     |-> Urls (full, small, thumb, regular, raw)
      |-> Links (id, username)
      |    ^        ^
      |    |        |
@@ -45,6 +44,8 @@ For the following project I make use of SwiftyJSON as a dependancy for Decoding 
 Build the Workspace with target selected as PinBoardFramework to get the framework generated as output in same directory.
 
 Add SwiftyJSON and PinBoardManager.framework generated to you linked framework and Libraries along with Embeded binaries.
+
+### */*For demonstration purpose TestApplication has been added which makes use of the generated framework and SwiftyJSON to fetch pin and display username and profile image in a table view.*/*
 
 `import PinBoardManager` <br/>
 `import SwiftyJSON`
