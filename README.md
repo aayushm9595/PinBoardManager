@@ -31,9 +31,9 @@ For the following project I make use of SwiftyJSON as a dependancy for Decoding 
 
 Build the Workspace with target selected as PinBoardFramework to get the framework generated as output in same directory.
 
-Add SwiftyJSON and PinBoardManager.framework generated to you linked framework and Libraries along with Embeded binaries.
-
-### **For demonstration purpose TestApplication has been added which makes use of the generated framework and SwiftyJSON to fetch pin and display username and profile image in a table view.**
-
+Add SwiftyJSON and PinBoardManager.framework generated to you linked framework and Libraries along with Embeded binaries and import the frameworks in your source to make use of library. (add framework in target you are building) 
 `import PinBoardManager` <br/>
 `import SwiftyJSON`
+
+
+### **For demonstration purpose TestApplication has been added which makes use of the generated framework and SwiftyJSON to fetch pin and display username and profile image in a table view.**
