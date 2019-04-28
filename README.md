@@ -9,18 +9,18 @@ Images link, Likes, time of creation  and JSON is cached in-memory only for all 
 The classes in model are structured as follows:-
 <p>
   --->Pin (height, user, id, Likes, width, creation time, urls, current user location, color, date) <br/>  
-     | <br/> 
-     |-> Urls (full, small, thumb, regular, raw) <br/>
-     |-> Links (id, username) <br/>
-     |    ^        ^ <br/>
-     |    |        | <br/>
-     |---------> User <br/>
-     |    |        | <br/>
-     |    |        |->ProfileImage <br/> 
-     |    | <br/>
-     |    | <br/> 
-     |    | <br/>
-     |->Categories <br/>
+     | <br/>
+     |-> Urls (full, small, thumb, regular, raw) 
+     |-> Links (id, username)
+     |    ^        ^
+     |    |        |
+     |---------> User
+     |    |        |
+     |    |        |->ProfileImage  
+     |    |
+     |    |  
+     |    |
+     |->Categories
 
 Cache size can be configured using class CacheConfiguration parameter `maxItems`
 
