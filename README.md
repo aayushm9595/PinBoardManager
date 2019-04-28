@@ -7,22 +7,8 @@ Above download link is configurable and can be set in PinsViewModel as `urlstrin
 Images link, Likes, time of creation  and JSON is cached in-memory only for all Pin items.
 
 The classes in model are structured as follows:-
-  --->Pin (height, user, id, Likes, width, creation time, urls, current user location, colour, date) <br/>  
-     | <br/>
-     |-> Urls (full, small, thumb, regular, raw)
-     |-> Links (id, username)
-     |    ^        ^
-     |    |        |
-     |---------> User
-     |    |        |
-     |    |        |->ProfileImage  
-     |    |
-     |    |  
-     |    |
-     |->Categories
  
-
-
+![Alt text](Structure.png)
 Cache size can be configured using class CacheConfiguration parameter `maxItems`
 
 Cache default duration can be set using `duration` in same class CacheConfiguration
