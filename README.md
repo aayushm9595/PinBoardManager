@@ -11,7 +11,7 @@ The classes in model are structured as follows:-
 ![Alt text](Structure.png)
 Cache size can be configured using class CacheConfiguration parameter `maxItems`
 
-Cache default duration can be set using `duration` in same class CacheConfiguration
+**** <b> Cache default duration can be set using `duration` in same class CacheConfiguration </b>
 
 Downloading Libraries are structured as follows
 
@@ -19,7 +19,7 @@ Downloading Libraries are structured as follows
 
 The items are removed from cache based on number of times the object was requested and in case of same number of requests most recent item is kept while others are removed
 
-An image load may be cancelled using method `cancelDownload` defined in class `Downloader`
+**** <b> An image load may be cancelled using method `cancelDownload` defined in class `Downloader` </b>
 
 In case of a pin/url being requested by multiple sources simultaneously (even before it has loaded) the number of times
 the pin was requested is incremented by 1 and this place a crucical role in deciding which item to remove from cached
