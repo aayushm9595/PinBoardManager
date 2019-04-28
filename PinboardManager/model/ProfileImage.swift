@@ -8,7 +8,7 @@
 
 import Foundation
 import SwiftyJSON
-
+import UIKit
 struct  ProfileImageKeys {
     let large = String("large")
     let small = String("small")
@@ -23,7 +23,9 @@ open class ProfileImage: NSCoding {
     public var small: String?
     public var medium: String?
     private let Header = ProfileImageKeys()
-    
+    public var smallImage: UIImage?
+    public var mediumImage: UIImage?
+    public var largeImage: UIImage?
     convenience public init(object: Any) {
         self.init(json: JSON(object))
     }
@@ -32,6 +34,30 @@ open class ProfileImage: NSCoding {
         large = json[Header.large].string
         small = json[Header.small].string
         medium = json[Header.medium].string
+    if small != nil {
+        Downloader.shared.download(url: (small)!, successBlock: { [weak self] (data) in
+            let image = UIImage(data: data)
+            self?.smallImage = image
+            }, failureBlock: { (error) in
+                print("downloading image with url:\(self.small) error: \(error)")
+        })
+    }
+    if medium != nil {
+        Downloader.shared.download(url: (medium)!, successBlock: { [weak self] (data) in
+            let image = UIImage(data: data)
+            self?.mediumImage = image
+            }, failureBlock: { (error) in
+                print("downloading image with url:\(self.medium) error: \(error)")
+        })
+    }
+    if large != nil{
+        Downloader.shared.download(url: (large)!, successBlock: { [weak self] (data) in
+            let image = UIImage(data: data)
+            self?.largeImage = image
+            }, failureBlock: { (error) in
+                print("downloading image with url:\(self.large) error: \(error)")
+        })
+    }
     }
     
     /**
