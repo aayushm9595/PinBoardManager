@@ -28,7 +28,7 @@ the pin was requested is incremented by 1 and this place a crucical role in deci
 
 ## Integration of Library
 
-
+Clean build the Pinboard Manager Workspace in case SwiftyJSON is not found.
 For the following project I make use of SwiftyJSON as a dependancy for Decoding JSON object and assigning members in model classes.
 
 Build the Workspace with target selected as PinBoardFramework to get the framework generated as output in same directory.
