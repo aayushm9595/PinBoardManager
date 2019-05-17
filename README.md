@@ -21,6 +21,7 @@ Downloading Libraries are structured as follows
 
 The items are removed from cache based on number of times the object was requested and in case of same number of requests most recent item is kept while others are removed
 
+<br/>Pull to refresh has been avoided as data is presented with initial page photos being shown on top<br/>
 **** <b> An image load may be cancelled using method `cancelDownload` defined in class `Downloader` </b>
 
 In case of a pin/url being requested by multiple sources simultaneously (even before it has loaded) the number of times
